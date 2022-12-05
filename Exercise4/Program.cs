@@ -39,6 +39,11 @@ namespace Exercise4
             top = fresh;
             Console.WriteLine("\n" + element + "pushed");
         }
+        public void pop()
+        {
+            Console.WriteLine("\n The poped elements is: " + top.info);
+            
+        }
 
 
     }
