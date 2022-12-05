@@ -14,6 +14,12 @@ struct STACK  //Membuat jenis data abstrak 'STACK'
 float data;
 struct STACK stackbaru;
 
+void inisialisasi()
+{
+    stackbaru.top = -1;
+}
+
+
         
     
 
