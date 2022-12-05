@@ -13,8 +13,18 @@ namespace Exercise4
         public node(int i, node n)
         {
             info = i;
-            next = n; 
+            next = n;
         }
+    }
+    class Stack
+    {
+        node top;
+        public void Stacks()
+        {
+            top = null;
+        }
+
+
     }
 }
 
