@@ -11,7 +11,7 @@ struct STACK  //Membuat jenis data abstrak 'STACK'
     float data[88];
 
 };
-float dta;
+float data;
 struct STACK stackbaru;
 
         
