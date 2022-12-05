@@ -5,20 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercise4
-struct STACK  //Membuat jenis data abstrak 'STACK'
 {
-    int TOP;
-    float data[88];
-
-};
-float data;
-struct STACK stackbaru;
-
-void inisialisasi()
-{
-    stackbaru.top = -1;
+    class node
+    {
+        public int info;
+        public node next;
+        public node(int i, node n)
+        {
+            info = i;
+            next = n; 
+        }
+    }
 }
-
 
         
     
